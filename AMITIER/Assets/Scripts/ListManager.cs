@@ -51,6 +51,10 @@ public class ListManager : MonoBehaviour
     public Transform ContentObjects;
     public Transform ContentAll;
 
+    public Transform Confetti;
+    public Transform Jaune;
+    public Transform Btn;
+
     private int IndexList = 0;
 
     //public static bool disabled = false;
@@ -185,8 +189,9 @@ public class ListManager : MonoBehaviour
             Debug.Log("Fin de la liste");
             ContentObjects.gameObject.SetActive(false);
             ContentAll.gameObject.SetActive(true);
-            //ContentObjects.SetActive(false);
-            //ContentAll.SetActive(true);
+            Confetti.gameObject.SetActive(true);
+            Jaune.gameObject.SetActive(true);
+            Btn.gameObject.SetActive(true);
 
         }
 

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 66bea8c9882e8b84d817c9bb80d23dbc
+  - enabled: 1
     path: Assets/Scenes/IchiWork.unity
     guid: a31d59aab3f63854d979e2793495af33
   - enabled: 1
